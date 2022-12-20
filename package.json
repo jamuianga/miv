@@ -1,0 +1,23 @@
+{
+  "name": "@janiodrey/miv",
+  "version": "1.0.0",
+  "description": "Mozambican data entry validator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/janiodrey/miv.git"
+  },
+  "keywords": [
+    "Validator",
+    "Input Field validator"
+  ],
+  "author": "Jânio Muianga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/janiodrey/miv/issues"
+  },
+  "homepage": "https://github.com/janiodrey/miv#readme"
+}
