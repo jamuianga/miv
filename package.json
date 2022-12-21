@@ -1,6 +1,6 @@
 {
   "name": "@janiodrey/miv",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Mozambican data entry validator",
   "main": "index.js",
   "scripts": {
