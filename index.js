@@ -9,7 +9,7 @@ export function isEmpty(value) {
 }
 
 /**
- * checks if the content is a valid email
+ * Checks if the content is a valid email
  */
 export function isEmail(value) {
   if (isEmpty(value)) return false;
@@ -19,8 +19,17 @@ export function isEmail(value) {
   return value.match(regex);
 }
 
+/**
+ * Checks if both password match
+ */
+export function isPasswordMatch(password1, password2) {
+  if (isEmpty(password1) && isEmpty(password2)) return false;
+
+  return password1 === password2
+}
+
 const InputValidator = {
-  isEmpty, isEmail
+  isEmpty, isEmail, isPasswordMatch
 };
 
 export default InputValidator;
